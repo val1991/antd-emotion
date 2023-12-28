@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text styles 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  color: red;
+}
+
+<div
+    class="emotion-0"
+  >
+    test
+  </div>
+</DocumentFragment>
+`;

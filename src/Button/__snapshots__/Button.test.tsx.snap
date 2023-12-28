@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button styles 1`] = `
+<DocumentFragment>
+  .emotion-1.ant-btn {
+  background: red;
+}
+
+<button
+    class="ant-btn emotion-0 ant-btn-default emotion-1"
+    type="button"
+  >
+    <span>
+      test
+    </span>
+  </button>
+</DocumentFragment>
+`;
