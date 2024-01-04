@@ -6,8 +6,16 @@ exports[`Text styles 1`] = `
   color: red;
 }
 
+.emotion-0:active {
+  background: green;
+}
+
+.emotion-0:hover {
+  background: aqua;
+}
+
 <div
-    class="emotion-0"
+    class="ant-col emotion-0 emotion-1"
   >
     test
   </div>

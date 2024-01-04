@@ -6,6 +6,18 @@ exports[`Button styles 1`] = `
   background: red;
 }
 
+.emotion-1.ant-btn:active {
+  background: green;
+}
+
+.emotion-1.ant-btn:hover {
+  background: aqua;
+}
+
+.emotion-1.ant-btn:disabled {
+  background: grey;
+}
+
 <button
     class="ant-btn emotion-0 ant-btn-default emotion-1"
     type="button"

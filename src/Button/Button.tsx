@@ -13,7 +13,19 @@ export function Button({
   return (
     <AntButton css={{
       '&.ant-btn': {
-        background: 'red'
+        background: 'red',
+
+         '&:active': {
+          background: 'green'
+        },
+
+        '&:hover': {
+          background: 'aqua'
+        },
+
+        '&:disabled': {
+          background: 'grey'
+        },
       }
     }}  {...rest}>
       {children}

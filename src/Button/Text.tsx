@@ -1,6 +1,7 @@
 /** @jsxImportSource @emotion/react */
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { jsx } from '@emotion/react'
+import { Col } from 'antd'
 import { PropsWithChildren, ReactElement } from 'react'
 
 export function Text({
@@ -9,10 +10,20 @@ export function Text({
 
 
   return (
-    <div css={{
-      color: 'red'
-    }} >
+    <Col
+      css={{
+        color: 'red',
+
+        '&:active': {
+          background: 'green'
+        },
+
+        '&:hover': {
+          background: 'aqua'
+        },
+      }}
+    >
       {children}
-    </div>
+    </Col>
   )
 }
